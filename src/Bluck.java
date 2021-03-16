@@ -64,7 +64,7 @@ public class Bluck{
             if (ins.size() > 0) {
                 System.out.println("Pattern ins : {");
                 for (int index : ins) {
-                    System.out.print(shift + index + " ");
+                    System.out.print("{Shift: " + shift + " index: " + index + "} ");
                 }
                 System.out.println("}");
             }
