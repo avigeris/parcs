@@ -17,7 +17,7 @@ public class Bluck{
 
         AMInfo info = new AMInfo(curtask, null);
 
-        int N = 20;
+        int N = 10;
         int n = text.length() / N;
         int M = pattern.length();
 
@@ -67,6 +67,7 @@ public class Bluck{
                     System.out.print("{Shift: " + shift + " index: " + index + "} ");
                 }
                 System.out.println("}");
+                System.out.println("Size: " + ins.size());
             }
         }
 
